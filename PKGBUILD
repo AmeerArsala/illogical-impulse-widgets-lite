@@ -5,7 +5,12 @@ pkgdesc='Illogical Impulse Widget Dependencies (Lite version that doesnt lock yo
 arch=(any)
 license=(None)
 depends=(
-	dart-sass
-	python-pywayland
-	python-psutil
+  dart-sass
+  python-pywayland
+  python-psutil
+  glib2 # for `gsettings` it seems?
+  quickshell-git
+  translate-shell
+  nm-connection-editor
+  wlogout
 )
